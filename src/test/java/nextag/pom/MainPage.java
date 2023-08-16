@@ -89,4 +89,52 @@ public class MainPage {
 		btnLogout.click();
 	}
 	
+	public BerandaPage clickBeranda() {
+		clickBtnBeranda();
+		BerandaPage berandaPage = PageFactory.initElements(driver, BerandaPage.class);
+		
+		return berandaPage;
+	}
+	
+	public PemilikAsetPage clickPemilikAset() {
+		clickBtnPemilikAset();
+		PemilikAsetPage pemilikAsetPage = PageFactory.initElements(driver, PemilikAsetPage.class);
+		
+		return pemilikAsetPage;
+	}
+	
+	public AkunBTLPage clickAkunBTL() {
+		clickBtnAkunBTL();
+		AkunBTLPage akunBTLPage = PageFactory.initElements(driver, AkunBTLPage.class);
+		
+		return akunBTLPage;
+	}
+	
+	public PeranPage clickPeran() {
+		clickBtnPeran();
+		PeranPage peranPage = PageFactory.initElements(driver, PeranPage.class);
+		
+		return peranPage;
+	}
+	
+	public DataGroupPage clickDataGroup() {
+		clickBtnDataGroup();
+		DataGroupPage dataGroupPage = PageFactory.initElements(driver, DataGroupPage.class);
+		
+		return dataGroupPage;
+	}
+	
+	public PenggunaPage clickPengguna() {
+		clickBtnPengguna();
+		PenggunaPage penggunaPage = PageFactory.initElements(driver, PenggunaPage.class);
+		
+		return penggunaPage;
+	}
+	
+	public PengaturanPage clickPengaturan() {
+		clickBtnPengaturan();
+		PengaturanPage pengaturanPage = PageFactory.initElements(driver, PengaturanPage.class);
+		
+		return pengaturanPage;
+	}
 }
