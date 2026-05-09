@@ -3,6 +3,7 @@
 ![TestNG](https://img.shields.io/badge/TestNG_7.6.0-FF7300?style=flat-square&logo=testng&logoColor=white)
 ![Cucumber](https://img.shields.io/badge/Cucumber_7.3.4-23D96C?style=flat-square&logo=cucumber&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 # 🏷️ Selenium + Cucumber BDD — Tag Asset Management
 
@@ -175,6 +176,12 @@ View reports after a test run:
 ```bash
 start target\cucumber-reports\index.html
 ```
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ---
 
